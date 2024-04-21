@@ -25,6 +25,8 @@ public class Tp3Application implements CommandLineRunner {
 		patientRepository.save(p1);
 		patientRepository.save(new Patient(null,"Bouchra",new Date(),true,58));
 		patientRepository.save(new Patient(null,"Ayoub",new Date(),false,100));
+		patientRepository.save(new Patient(null,"Bouchra",new Date(),true,58));
+		patientRepository.save(new Patient(null,"Ayoub",new Date(),false,100));
 
 	}
 }
